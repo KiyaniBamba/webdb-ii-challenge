@@ -7,6 +7,12 @@ module.exports = {
       filename: './data/produce.db3',
     },
     useNullAsDefault: true,
+    migration: {
+      directory: "./data/migrations"
+    },
+    seeds: {
+      directory: "./data/seeds"
+    }
   },
 
   production: {
@@ -15,5 +21,11 @@ module.exports = {
       filename: './data/produce-production.db3',
     },
     useNullAsDefault: true,
+    migration: {
+      directory: "./data/migrations"
+    },
+    // seeds: {
+    //   directory: "./data/seeds"
+    // }
   },
 };
