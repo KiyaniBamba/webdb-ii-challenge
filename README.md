@@ -6,17 +6,17 @@ In this challenge, you will write an API that can be used to manage _Cars_ store
 
 Follow these steps for starting your project.
 
-- [ ] Fork this repository into your account and **clone your version**.
-- [ ] Add your _Team Lead_ as collaborator on your repository.
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [ok] Fork this repository into your account and **clone your version**.
+- [ok] Add your _Team Lead_ as collaborator on your repository.
+- [ok] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [ok] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [ok] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your _Team Lead_ as a reviewer on the pull-request
-- [ ] Your _Team Lead_ will count the project as complete by merging the branch back into master.
+- [ok] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's Repository). **Please don't merge your own pull request**
+- [ok] Add your _Team Lead_ as a reviewer on the pull-request
+- [ok] Your _Team Lead_ will count the project as complete by merging the branch back into master.
 
 ## Minimum Viable Product
 
@@ -34,6 +34,6 @@ The client for this API is a car dealer who has provided the following specs:
 
 ## Stretch Problems
 
-- Add seed data to the database using `knex seeds`
+- Add seed data to the database using `knex seeds` ok
 - Add `UPDATE` and `DELETE` operations to your API.
 - Write a schema file for a `sales` table. This table should track information on the sale of each car. You may wish to research `foreign keys` in order to link each sale to the entry in `cars` which sold.
